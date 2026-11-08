@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@tanstack/react-query": "^5.107.1",
+    "axios": "^1.21.0",
+    "formik": "^2.4.9",
+    "swiper": "^14.4.0",
+    "toaster": "^0.1.2",
+    "yup": "^1.7.1"
+  }
+}
