@@ -1,0 +1,52 @@
+.hero {
+  min-height: calc(100vh - 80px);
+  background-image: url("/images/Picture.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: inherit;
+  padding: 40px 24px;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.content {
+  max-width: 700px;
+  text-align: center;
+  color: #fff;
+}
+
+.content h1 {
+  margin-bottom: 24px;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.content p {
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  min-height: 52px;
+  padding: 14px 28px;
+  border-radius: 12px;
+  background: #00bbd3;
+  color: #fff;
+  font-weight: 600;
+  transition: background 200ms ease;
+}
+
+.button:hover {
+  background: #00a6bd;
+}

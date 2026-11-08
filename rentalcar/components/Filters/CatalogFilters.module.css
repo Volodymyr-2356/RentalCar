@@ -1,0 +1,84 @@
+.filters {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 56px;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 180px;
+}
+
+.field span,
+.mileage legend {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+.field select,
+.mileage input {
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background: #fff;
+  color: #121417;
+  outline: none;
+}
+
+.mileage {
+  min-width: 260px;
+  border: none;
+}
+
+.mileage legend {
+  margin-bottom: 8px;
+}
+
+.mileageFields {
+  display: flex;
+  gap: 8px;
+}
+
+.mileageFields input {
+  width: 50%;
+  min-width: 0;
+}
+
+.searchButton,
+.resetButton {
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.searchButton {
+  border: none;
+  background: #00bbd3;
+  color: #fff;
+  border-radius: 12px;
+  padding: 12px 51px;
+  width: 156px;
+  height: 44px;
+}
+
+.searchButton:hover {
+  background: #0095ba;
+}
+
+.resetButton {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background: #fff;
+  color: #121417;
+}
+
+.resetButton:hover {
+  background: #f5f5f5;
+}
